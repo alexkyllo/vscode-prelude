@@ -1,4 +1,4 @@
-from vscode_prelude.prelude import EXTENSIONS, install_extensions
+from vscode_prelude import EXTENSIONS, install_extensions
 
 def main():
     install_extensions(EXTENSIONS)

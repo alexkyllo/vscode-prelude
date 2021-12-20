@@ -5,7 +5,9 @@ description = ""
 authors = [
     {name = "Alex Kyllo", email = "alex.kyllo@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "loguru",
+]
 requires-python = ">=3.8"
 license = {text = "MIT"}
 
@@ -15,7 +17,7 @@ homepage = ""
 [tool]
 [tool.pdm]
 [tool.pdm.scripts]
-vscode-prelude = {call = "vscode_prelude:main"}
+vscode-prelude = {call = "vscode_prelude.__main__:main"}
 
 [build-system]
 requires = ["pdm-pep517"]

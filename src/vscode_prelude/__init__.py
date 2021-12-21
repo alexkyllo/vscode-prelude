@@ -1,4 +1,4 @@
-from .prelude import list_extensions,  install_extensions
+from .prelude import install_extensions, list_extensions
 
 EXTENSIONS = [
     "arcticicestudio.nord-visual-studio-code",
@@ -12,4 +12,6 @@ EXTENSIONS = [
     "ms-python.vscode-pylance",
     "ms-toolsai.jupyter",
     "james-yu.latex-workshop",
+    "ikuyadeu.r",
+    "julialang.language-julia",
 ]

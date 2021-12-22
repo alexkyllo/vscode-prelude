@@ -14,4 +14,5 @@ EXTENSIONS = [
     "james-yu.latex-workshop",
     "ikuyadeu.r",
     "julialang.language-julia",
+    "bungcip.better-toml",
 ]
